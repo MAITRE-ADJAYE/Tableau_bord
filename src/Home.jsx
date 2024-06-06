@@ -94,8 +94,8 @@ function Home() {
         <div className='charts'>
             <ResponsiveContainer width="100%" height="100%">
             <BarChart
-            width={500}
-            height={300}
+            width={500} //--ne semble rien modifier si on supprimer
+            height={300} //--ne semble rien modifier si on supprimer
             data={data}
             margin={{
                 top: 5,
